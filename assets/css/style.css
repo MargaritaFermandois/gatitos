@@ -1,65 +1,38 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(234, 232, 230);
-    color: rgb(245, 230, 192);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+  background-color: rgb(234, 232, 230);
+  color: rgb(245, 230, 192);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-image: url("../img/tienda-gato.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 100%;
-    padding-left: 150px;
-    padding-top: 200px;
+  background-image: url("../img/tienda-gato.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.titulo{
-    margin: 0;
-    font-size: 2 rem;
+.titulo {
+  font-size: 2 rem;
 }
 
-.bajada{
-    margin: 0;
-    font-size: 1.5rem;
+.bajada {
+  font-size: 1.5rem;
 }
-
-.main{
-    height: 1300px;
-    padding: 70px;
-    padding-left: 100px;
-}
-div{
-    padding: 50px;
-}
-
 
 .productos {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.pmain{
-    color: rgb(110, 102, 94);
-    font-size: 1.5rem;
-}
-.img{
-    border-radius: 7%;
+.pmain {
+  color: rgb(110, 102, 94);
+  font-size: 1.5rem;
 }
 
 footer {
-    background-color: rgb(85, 77, 70);
-    height: 10vh;
+  background-color: rgb(85, 77, 70);
 }
 
 #textofooter {
-    text-align: center;
-    padding: 20px;
-    font-size: 1rem;
+  font-size: 1rem;
 }
-
